@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:wght@500&family=Open+Sans:ital,wght@0,300;0,600;1,300&family=Poppins:wght@300;400;500;600&family=Quicksand:wght@400;600;700&family=Roboto:wght@500;700&display=swap');
+body
+{
+  font-family: 'Roboto', sans-serif;
+}
+.navbar-expand-lg .navbar-nav .nav-link
+{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cde
+{
+  position:relative;
+}
+.kyu{
+  position:absolute;
+margin-left: 163px;
+}
+.what
+{
+  line-height: 5px;
+  width: 400px;
+  height: 5.5vh;
+  position: relative;
+}
+.block1
+{
+  background: url("https://www.gharghaderi.com/icon/newcover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  position: relative;
+}
+.love
+{
+position: absolute;
+margin-left: 428px;
+}
+.wbc
+{
+  border: 1px solid rosybrown;
+  width: 200px;
+}
+#cars
+{
+  width: 500px;
+  height: 5vh;
+}
+.dog
+{
+   height: 30vh;
+  object-fit: cover;
+}
+.owl 
+{
+   height: 5vh;
+}
+.fox
+{
+  height: 20vh;
+  object-fit: cover;
+ 
+}
+.tops
+{
+  height: 5vh;
+  width: 50px;
+ 
+}
+.eng 
+{
+  height: 5vh;
+}
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+.navbar .navbar-nav .nav-link {
+  color: #000000;
+  font-size: 1.1em;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: red;
+}
+.navbar .navbar-nav .nav-item {
+  position: relative;
+}
+.navbar .navbar-nav .nav-item::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: red;
+  width: 0%;
+  content: "";
+  height: 2px;
+  top: 15px;
+  transition: all 0.5s;
+}
+
+.navbar .navbar-nav .nav-item:hover::after {
+  width: 100%;
+}
+.zoom {
+  align-items: center;
+  background-color: white;
+  transition: transform .5s;
+  // height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(0.5); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1.05); 
+}
+.simple
+{
+  color: black;
+  :hover
+  {
+    color: red;
+  }
+}
+.rabin
+{
+  font-size: 10px;
+}
